@@ -1,0 +1,8 @@
+.card{
+    height: 10rem;
+}
+
+.listgroup{
+    overflow-x: 'auto';
+    overflow-y: 'hidden'; 
+}

@@ -10,7 +10,7 @@ const ClassifierComponent = () => {
 
 
     return (
-        <div>
+        <div className="col-md-4">
             <VideoDropZone setFiles={setFiles} />
             <FileList files={files} />
             <RequestImagesButton files={files} setImages={setImages} />

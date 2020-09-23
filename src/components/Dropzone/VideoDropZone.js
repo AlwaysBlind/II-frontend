@@ -7,7 +7,7 @@ function VideoDropZone({ setFiles }) {
         console.log(acceptedFiles)
         setFiles(acceptedFiles)
     }, [setFiles])
-    const { getRootProps, getInputProps, isDragActive } = useDropzone({ onDrop: onDrop, accept: "video/*", minSize: 0, maxSize: 5242880 })
+    const { getRootProps, getInputProps, isDragActive } = useDropzone({ onDrop: onDrop, accept: "video/*", minSize: 0, maxSize: 5242880 * 3 })
 
     return (
         <section className='container'>
@@ -17,8 +17,9 @@ function VideoDropZone({ setFiles }) {
                 {
                     isDragActive ?
                         <p>Drop the files here ...</p> :
-                        <p>Drag 'n' drop some files here, or click to select files
-                        Max 5 Mb
+                        <p>
+                            Upload a video file here
+                            <br /> Max 15 Mb
                         </p>
                 }
             </div>

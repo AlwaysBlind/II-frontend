@@ -1,20 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import VideoDropZone from './Dropzone/VideoDropZone';
-import RequestImagesButton from './RequestImagesButton'
-import ImageList from './ImageList/ImageList';
-import FileList from './Dropzone/FileList';
 
-const ClassifierComponent = () => {
-    const [files, setFiles] = useState([]);
-    const [images, setImages] = useState([]);
-
-
+const ClassifierComponent = ({ files, setFiles }) => {
     return (
-        <div className="col-md-4">
+        <div className="col-4">
             <VideoDropZone setFiles={setFiles} />
-            <FileList files={files} />
-            <RequestImagesButton files={files} setImages={setImages} />
-            <ImageList images={images} />
         </div>
     );
 }

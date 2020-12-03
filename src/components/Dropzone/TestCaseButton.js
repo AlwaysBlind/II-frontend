@@ -3,11 +3,10 @@ import { Button, Card } from 'react-bootstrap';
 
 function TestCaseButton({ files, setFiles }) {
     const fetchLocalFile = () => {
-        return fetch("II-frontend/mug-test.mp4", {
+        return fetch(`${process.env.PUBLIC_URL}/mug-test.mp4`, {
             headers: {
                 'Content-Type': 'video/mp4'
             }
-
         })
             .then(response => response.blob())
             .then(blob => {

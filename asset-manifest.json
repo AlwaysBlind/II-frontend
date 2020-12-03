@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/II-frontend/static/css/main.e13bc8d6.chunk.css",
-    "main.js": "/II-frontend/static/js/main.12c35da0.chunk.js",
-    "main.js.map": "/II-frontend/static/js/main.12c35da0.chunk.js.map",
+    "main.js": "/II-frontend/static/js/main.595f1c88.chunk.js",
+    "main.js.map": "/II-frontend/static/js/main.595f1c88.chunk.js.map",
     "runtime-main.js": "/II-frontend/static/js/runtime-main.5b6a956f.js",
     "runtime-main.js.map": "/II-frontend/static/js/runtime-main.5b6a956f.js.map",
     "static/js/2.8a5d080d.chunk.js": "/II-frontend/static/js/2.8a5d080d.chunk.js",
     "static/js/2.8a5d080d.chunk.js.map": "/II-frontend/static/js/2.8a5d080d.chunk.js.map",
     "index.html": "/II-frontend/index.html",
-    "precache-manifest.98ab174cbd425df3eb87ef9937a4d037.js": "/II-frontend/precache-manifest.98ab174cbd425df3eb87ef9937a4d037.js",
+    "precache-manifest.1b477fc427a7e5e6a4b2f63e921cfcf5.js": "/II-frontend/precache-manifest.1b477fc427a7e5e6a4b2f63e921cfcf5.js",
     "service-worker.js": "/II-frontend/service-worker.js",
     "static/css/main.e13bc8d6.chunk.css.map": "/II-frontend/static/css/main.e13bc8d6.chunk.css.map",
     "static/js/2.8a5d080d.chunk.js.LICENSE.txt": "/II-frontend/static/js/2.8a5d080d.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.5b6a956f.js",
     "static/js/2.8a5d080d.chunk.js",
     "static/css/main.e13bc8d6.chunk.css",
-    "static/js/main.12c35da0.chunk.js"
+    "static/js/main.595f1c88.chunk.js"
   ]
 }

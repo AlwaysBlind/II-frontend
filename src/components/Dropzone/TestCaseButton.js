@@ -3,7 +3,7 @@ import { Button, Card } from 'react-bootstrap';
 
 function TestCaseButton({ files, setFiles }) {
     const fetchLocalFile = () => {
-        return fetch(`${process.env.PUBLIC_URL}/mug-test.mp4`, {
+        return fetch(`https://alwaysblind.github.io/II-frontend/mug-test.mp4`, {
             headers: {
                 'Content-Type': 'video/mp4'
             }

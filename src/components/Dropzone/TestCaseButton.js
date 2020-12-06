@@ -1,9 +1,12 @@
 import React, { useEffect } from 'react';
 import { Button, Card } from 'react-bootstrap';
+import { Player } from 'video-react';
+import "video-react/dist/video-react.css";
 
 function TestCaseButton({ files, setFiles }) {
     const fetchLocalFile = () => {
-        return fetch(`https://alwaysblind.github.io/II-frontend/mug-test.mp4`, {
+        const fetchUrl = process.env.NODE_ENV === "production" ? `https://alwaysblind.github.io/II-frontend/mug-test.mp4` : `${process.env.PUBLIC_URL}/mug-test.mp4`
+        return fetch(fetchUrl, {
             headers: {
                 'Content-Type': 'video/mp4'
             }
@@ -21,10 +24,10 @@ function TestCaseButton({ files, setFiles }) {
         }
     }, [files]);
     return (
-        <Card className='col-1 mt-5' style={{ height: '50%' }}>
-            <Card.Img variant='top' src={process.env.PUBLIC_URL + "/testmoviepic.png"} style={{ marginTop: '1rem' }} />
+        <Card className='col-2 mt-3' style={{ height: '100%' }}>
             <Card.Body >
-                <Button variant="primary" onClick={fetchLocalFile}>Or test this video</Button>
+                <Player src={process.env.PUBLIC_URL + "/mug-test.mp4"}></Player>
+                <Button className='mt-2' variant="dark" onClick={fetchLocalFile}>Or test this video</Button>
             </Card.Body>
         </Card>
     );

@@ -6,7 +6,7 @@ import TestCaseButton from './components/Dropzone/TestCaseButton';
 import ImageList from './components/ImageList/ImageList';
 import FileList from './components/Dropzone/FileList';
 import RequestImagesButton from './components/RequestImagesButton'
-import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
+import { Route, HashRouter, Switch } from 'react-router-dom';
 import About from './components/About';
 
 function App() {
@@ -14,14 +14,14 @@ function App() {
   const [images, setImages] = useState([]);
   return (
     <div className='App'>
-      <Router>
+      <HashRouter basename="">
         <NavbarHeader />
         <Switch>
           <Route exact path='/' component={ClassifierPage} />
-          <Route path='/II-frontend/about' component={About} />
+          <Route path='/about' component={About} />
           <Route exact path='*' component={ClassifierPage} />
         </Switch>
-      </Router>
+      </HashRouter>
     </div >
   );
 

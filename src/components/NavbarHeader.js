@@ -14,8 +14,6 @@ const NavbarHeader = () => {
                         />
                     </Navbar.Brand>
                 </NavLink>
-            </Nav>
-            <Nav>
                 <NavLink style={{ color: "lightgray" }}
                     to="about">
                     About

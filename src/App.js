@@ -14,12 +14,11 @@ function App() {
   const [images, setImages] = useState([]);
   return (
     <div className='App'>
-      <HashRouter basename="">
+      <HashRouter>
         <NavbarHeader />
         <Switch>
           <Route exact path='/' component={ClassifierPage} />
           <Route path='/about' component={About} />
-          <Route exact path='*' component={ClassifierPage} />
         </Switch>
       </HashRouter>
     </div >

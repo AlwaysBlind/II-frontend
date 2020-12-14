@@ -1,25 +1,23 @@
 {
   "files": {
-    "main.css": "/II-frontend/static/css/main.e13bc8d6.chunk.css",
-    "main.js": "/II-frontend/static/js/main.5ff2ff4b.chunk.js",
-    "main.js.map": "/II-frontend/static/js/main.5ff2ff4b.chunk.js.map",
-    "runtime-main.js": "/II-frontend/static/js/runtime-main.5b6a956f.js",
-    "runtime-main.js.map": "/II-frontend/static/js/runtime-main.5b6a956f.js.map",
-    "static/css/2.a33d7f97.chunk.css": "/II-frontend/static/css/2.a33d7f97.chunk.css",
-    "static/js/2.bde60c5b.chunk.js": "/II-frontend/static/js/2.bde60c5b.chunk.js",
-    "static/js/2.bde60c5b.chunk.js.map": "/II-frontend/static/js/2.bde60c5b.chunk.js.map",
+    "main.css": "/II-frontend/static/css/main.f82ff33c.chunk.css",
+    "main.js": "/II-frontend/static/js/main.49c86af8.chunk.js",
+    "main.js.map": "/II-frontend/static/js/main.49c86af8.chunk.js.map",
+    "runtime-main.js": "/II-frontend/static/js/runtime-main.18810f79.js",
+    "runtime-main.js.map": "/II-frontend/static/js/runtime-main.18810f79.js.map",
+    "static/css/2.55b94672.chunk.css": "/II-frontend/static/css/2.55b94672.chunk.css",
+    "static/js/2.4abbfe71.chunk.js": "/II-frontend/static/js/2.4abbfe71.chunk.js",
+    "static/js/2.4abbfe71.chunk.js.map": "/II-frontend/static/js/2.4abbfe71.chunk.js.map",
     "index.html": "/II-frontend/index.html",
-    "precache-manifest.ecb6fb447fbfe0e3ffe6665bd93fe759.js": "/II-frontend/precache-manifest.ecb6fb447fbfe0e3ffe6665bd93fe759.js",
-    "service-worker.js": "/II-frontend/service-worker.js",
-    "static/css/2.a33d7f97.chunk.css.map": "/II-frontend/static/css/2.a33d7f97.chunk.css.map",
-    "static/css/main.e13bc8d6.chunk.css.map": "/II-frontend/static/css/main.e13bc8d6.chunk.css.map",
-    "static/js/2.bde60c5b.chunk.js.LICENSE.txt": "/II-frontend/static/js/2.bde60c5b.chunk.js.LICENSE.txt"
+    "static/css/2.55b94672.chunk.css.map": "/II-frontend/static/css/2.55b94672.chunk.css.map",
+    "static/css/main.f82ff33c.chunk.css.map": "/II-frontend/static/css/main.f82ff33c.chunk.css.map",
+    "static/js/2.4abbfe71.chunk.js.LICENSE.txt": "/II-frontend/static/js/2.4abbfe71.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.5b6a956f.js",
-    "static/css/2.a33d7f97.chunk.css",
-    "static/js/2.bde60c5b.chunk.js",
-    "static/css/main.e13bc8d6.chunk.css",
-    "static/js/main.5ff2ff4b.chunk.js"
+    "static/js/runtime-main.18810f79.js",
+    "static/css/2.55b94672.chunk.css",
+    "static/js/2.4abbfe71.chunk.js",
+    "static/css/main.f82ff33c.chunk.css",
+    "static/js/main.49c86af8.chunk.js"
   ]
 }

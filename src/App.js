@@ -18,7 +18,7 @@ function App() {
       <Router>
         <Switch>
           <Route exact path='/' component={ClassifierPage} />
-          <Route exact path='/about' component={About} />
+          <Route exact path='/II/frontend/about' component={About} />
           <Route exact path='*' component={ClassifierPage} />
         </Switch>
       </Router>

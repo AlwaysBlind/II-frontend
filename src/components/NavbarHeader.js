@@ -11,7 +11,7 @@ const NavbarHeader = () => {
                 />
             </Navbar.Brand>
             <Nav >
-                <Nav.Link style={{ color: "lightgray" }} href="/about">About</Nav.Link>
+                <Nav.Link style={{ color: "lightgray" }} href="/II-frontend/about">About</Nav.Link>
             </Nav>
         </Navbar>
     );

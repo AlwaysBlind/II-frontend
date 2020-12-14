@@ -14,11 +14,11 @@ function App() {
   const [images, setImages] = useState([]);
   return (
     <div className='App'>
-      <NavbarHeader />
       <Router>
+        <NavbarHeader />
         <Switch>
           <Route exact path='/' component={ClassifierPage} />
-          <Route exact path='/II-frontend/about' component={About} />
+          <Route path='/II-frontend/about' component={About} />
           <Route exact path='*' component={ClassifierPage} />
         </Switch>
       </Router>
